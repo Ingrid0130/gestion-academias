@@ -237,3 +237,5 @@ begin
     order by u.Apellido, u.Nombre;
 end $$
 delimiter ;
+
+INSERT INTO Rol (Nombre) VALUES ('alumno'), ('docente'), ('administrador');
